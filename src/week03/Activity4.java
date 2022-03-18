@@ -23,6 +23,7 @@ public class Activity4 {
 		
 		if(size>1 || weight>23) {
 			System.out.println("Your parcel is refused!");
+			System.exit(0);
 		}else {
 			if(national==true) {// calculate national parcels
 				System.out.println("Your parcel is national");
