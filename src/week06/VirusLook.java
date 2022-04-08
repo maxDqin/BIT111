@@ -7,7 +7,7 @@ class VirusLook {
 		Virus crumble = new Virus();
 		System.out.println("There are " + smash.thisVirus + " smash viruses.");
 		System.out.println("There are " + crash.thisVirus + " crash viruses.");
-		System.out.println("There are " + crumble.thisVirus + " smash viruses.");
+		System.out.println("There are " + crumble.thisVirus + " crumble viruses.");
 		crumble.localVirus();
 		System.out.println("There are " + Virus.getVirusCount() + " total viruses.");
 
