@@ -10,7 +10,7 @@ public class A1 {
 		String s = sc.nextLine();
 		
 		String output;
-		if(s.length()%2==0) {
+		if(s.length()%2==0) { 
 			output = ""+s.charAt(s.length()/2-1)+s.charAt(s.length()/2);
 		}else {
 			output = ""+s.charAt(s.length()/2);

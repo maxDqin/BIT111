@@ -11,6 +11,9 @@ public class Temp {
 		tempCelsius = 22;
 		tempFahr = tempCelsius * CELSIUS_TO_FAHR + FAHR_OFFSET;
 		System.out.println(tempCelsius + " celsius is " + tempFahr + " Fahrenheit.");
+		
+		int a = 7;
+		System.out.println(-a);
 	}
 
 }
